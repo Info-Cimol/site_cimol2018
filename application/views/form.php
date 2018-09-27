@@ -15,8 +15,5 @@
 	
 	    <input type="submit" value="Login" name="logar" />
 	</form>
-    <?php
-    //testando site
-    ?>
 </body>
 </html>
