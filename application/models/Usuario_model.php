@@ -27,7 +27,8 @@ class Usuario_model extends CI_Model{
             LEFT JOIN feintec ON feintec.pessoa_id=pessoa.id 
             LEFT JOIN biblioteca ON biblioteca.pessoa_id=pessoa.id 
             LEFT JOIN coordenador_curso ON coordenador_curso.professor_id=professor.id
-            WHERE usuario.senha = '".$senha."' AND email.email = '".$usuario."'";
+            WHERE usuario.senha = '".$senha."' AND email.email = '".$usuario."'
+            GROUP BY  usuario.id, pessoa.nome,pessoa.rg, pessoa.cpf";
        $result = $this->db->query($query); 
        return $result;
 	}

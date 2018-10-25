@@ -4,6 +4,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Admin extends MX_Controller {
 	public function __construct(){
 		parent::__construct();
+		//print_r($this->tema); 
+		//$this->view->setTema($this->tema['admin']);
 		if(isset($this->user_data)){
 			if(!in_array('admin', $this->user_data['permissoes'])){
 				$_SESSION['route']="admin";

@@ -42,6 +42,7 @@ class MX_Controller
 	public $autoload = array();
 	var $user_data;
 	var $data;
+	var $tema;
 	
 	public function __construct() 
 	{
@@ -59,7 +60,32 @@ class MX_Controller
 		
 		/* autoload module items */
 		$this->load->_autoloader($this->autoload);
+	
+		$this->tema=$this->config->item("tema");
+
 		
+		$rtr =&load_class('Router', 'core');
+		
+
+		/*if(isset($_SERVER['PATH_INFO'])){
+		
+			if(isset($tema[substr($_SERVER['PATH_INFO'], 1)])){
+				$tema=$tema[substr($_SERVER['PATH_INFO'], 1)];
+			}
+			else{
+				$tema="default";
+			}
+
+			
+		}else{
+			$tema="default";
+		}
+
+		$tema=$this->config->item("tema_dir").$tema."/";
+
+		echo $this->tema=$tema;*/
+		$this->view->setTema($this->tema[$rtr->module]);
+
 	}
 	
 	public function __get($class) 
