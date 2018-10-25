@@ -1,0 +1,1 @@
+INSERT INTO `biblioteca_obra` (`id`, `titulo`, `resumo`, `edicao`, `isbn`, `categoria_id`, `editora_id`, `quantidade`, `locacao`, `formato`) VALUES (NULL, 'Harry Potter e a Pedra Filosofal', 'Muito Bom!', '1', '123456', '1', '1', '12', '1', 'fisico');

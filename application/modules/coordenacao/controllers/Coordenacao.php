@@ -9,12 +9,12 @@ class Coordenacao extends MX_Controller {
 			if(
 				!in_array('coordenador_curso', $this->user_data['permissoes']) 
 			){
-				redirect('coordenacao/restrito', 'refresh');
+				redirect('login', 'refresh');
 				
 			}
 		}else{
 			
-			redirect('restrito', 'refresh');
+			redirect('login', 'refresh');
 		}
 	}
 	
