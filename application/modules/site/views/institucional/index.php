@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="<?php echo base_url();  ?>public/site/css/institucional.css" />
-<section id="institucional">
+<section id="institucional" class="row">
 	<h4 class="titulo_pagina">Institucional</h4>
 	<div id="instituicao">
 		<div id="img_instituicao">

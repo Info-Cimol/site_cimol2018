@@ -25,7 +25,7 @@ class View {
 		//stract($vars);
 		//include $this->tema.'index.php' ;
 		
-		$this->CI->load->view('temas/'.$this->tema.'/index', $vars);
+		$this->CI->load->view('temas/'.$this->tema, $vars);
 	}
 
 

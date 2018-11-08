@@ -1,5 +1,5 @@
 <link rel="stylesheet"  href="<?php echo base_url();  ?>public/temas/default/css/login.css" media="screen" >
-       <section>
+       <section class="row">
             <div id="imagem"><img src="<?php echo base_url();  ?>public/temas/default/images/cimol_branco.png"/></div>
             <div id="sbv"><h3><p>SEJA BEM-VINDO</p></h3></div>
             <div id="msg"><p>SE VOCê Já POSSUI CADASTRO,<br>INFORME SEUS DADOS DE ACESSO</p></div>
