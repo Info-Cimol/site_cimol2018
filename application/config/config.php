@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-//alterado
+//alterado 14/11/2018
 $config['base_url'] = 'http://localhost/site_cimol2018/';
 $config['base_dir'] = 'C:/xampp/htdocs/site_cimol2018/';
 $config['tema']['coordenacao'] = 'coordena';
