@@ -26,7 +26,7 @@ $config['tema']['site'] = 'cimol';
 $config['tema']['professor'] = 'default';
 $config['tema_dir']=$config['base_dir']."public/temas/";
 $config['tema_url']=$config['base_url']."public/temas/";
-//$config['tema']=
+
 
 /*
 |--------------------------------------------------------------------------
