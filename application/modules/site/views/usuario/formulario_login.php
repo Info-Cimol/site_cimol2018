@@ -1,3 +1,4 @@
+
 <link rel="stylesheet"  href="<?php echo base_url();  ?>public/temas/default/css/login.css" media="screen" >
        <section>
             <div id="imagem"><img src="<?php echo base_url();  ?>public/temas/default/images/cimol_branco.png"/></div>
@@ -24,6 +25,6 @@
                 <p>Se você não possui usuário<br> avito,<a href="<?php echo base_url();  ?>solicitar_senha" ><strong>Clique aqui</strong></a></p>
             </div>
             <div id="esq-sen">
-                <p><a href="<?php echo base_url();  ?>esqueceu_senha" >Esqueceu a senha?</a></p>
+                <p><a href="<?php echo base_url();  ?>usuario/esqueceu_senha" >Esqueceu a senha?</a></p>
             </div>
         </section>

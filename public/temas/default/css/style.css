@@ -58,7 +58,7 @@ header #escola{
 		}
 
 		#escola_mobile{
-				float:left:
+				float:left;
 				height: 45px;
 		}
 		#escola_mobile img{
@@ -135,7 +135,7 @@ header #escola{
 .sessao_aside{
 	
 	background-color:#f8f8f8;
-	border:#solid 1px #ffff00
+	border:#solid 1px #ffff00;
 	height: 25px;
 	width: 100%;
 	font-size:18px;

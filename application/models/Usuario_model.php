@@ -15,8 +15,6 @@ class Usuario_model extends CI_Model{
 		count(administrador.pessoa_id) as admin,
 		count(aluno.pessoa_id) as aluno,
 		count(professor.pessoa_id) as professor,
-        count(feintec.pessoa_id) as feintec,
-        count(biblioteca.pessoa_id) as biblioteca,
         count(coordenador_curso.professor_id) as coordenador_curso,
 		count(pessoa.id) as pessoa from pessoa 
         	LEFT JOIN usuario ON usuario.pessoa_id = pessoa.id 
@@ -24,8 +22,6 @@ class Usuario_model extends CI_Model{
             LEFT JOIN administrador ON administrador.pessoa_id=pessoa.id 
             LEFT JOIN aluno ON aluno.pessoa_id=pessoa.id 
             LEFT JOIN professor ON professor.pessoa_id=pessoa.id 
-            LEFT JOIN feintec ON feintec.pessoa_id=pessoa.id 
-            LEFT JOIN biblioteca ON biblioteca.pessoa_id=pessoa.id 
             LEFT JOIN coordenador_curso ON coordenador_curso.professor_id=professor.id
             WHERE usuario.senha = '".$senha."' AND email.email = '".$usuario."'
             GROUP BY  usuario.id, pessoa.nome,pessoa.rg, pessoa.cpf";

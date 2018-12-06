@@ -24,8 +24,8 @@ class View {
 		//print_r($vars);
 		//stract($vars);
 		//include $this->tema.'index.php' ;
-		
-		$this->CI->load->view('temas/'.$this->tema.'/index', $vars);
+		echo 'temas/'.$this->tema;
+		$this->CI->load->view('temas/'.$this->tema.'.php', $vars);
 	}
 
 
