@@ -36,10 +36,17 @@
                         <div class="main_nav">
                             <ul class="main_nav_list">
                                 <li class="main_nav_item"><a href="<?php echo base_url();  ?>">Início</a></li>
+<<<<<<< HEAD
                                 <li class="main_nav_item"><a href="#">Institucional</a></li>
                                 <li class="main_nav_item"><a href="courses.html">Cursos</a></li>
                                 <li class="main_nav_item"><a href="news.html">Notícias</a></li>
                                 <li class="main_nav_item"><a href="contact.html">Contato</a></li>
+=======
+                                <li class="main_nav_item"><a href="<?php echo base_url();  ?>institucional">Institucional</a></li>
+                                <li class="main_nav_item"><a href="<?php echo base_url();  ?>curso">Cursos</a></li>
+                                <li class="main_nav_item"><a href="<?php echo base_url();  ?>noticia">Notícias</a></li>
+                                <li class="main_nav_item"><a href="<?php echo base_url();  ?>contato">Contato</a></li>
+>>>>>>> 33c5355b90d4646f931ab4252efdce4940db8ed1
                             </ul>
                         </div>
                     </nav>

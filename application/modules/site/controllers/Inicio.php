@@ -20,7 +20,7 @@ class Inicio extends MX_Controller {
 	 */
 	public function __construct(){
 		parent::__construct();
-		print_r($this->tema); 
+		//print_r($this->tema); 
 		//$this->view->setTema($this->tema['site']);
 		$this->load->model('noticia_model');
 		$this->load->model('evento_model');

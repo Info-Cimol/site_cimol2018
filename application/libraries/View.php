@@ -24,8 +24,13 @@ class View {
 		//print_r($vars);
 		//stract($vars);
 		//include $this->tema.'index.php' ;
+<<<<<<< HEAD
 		echo 'temas/'.$this->tema;
 		$this->CI->load->view('temas/'.$this->tema.'.php', $vars);
+=======
+		
+		$this->CI->load->view('temas/'.$this->tema, $vars);
+>>>>>>> 33c5355b90d4646f931ab4252efdce4940db8ed1
 	}
 
 

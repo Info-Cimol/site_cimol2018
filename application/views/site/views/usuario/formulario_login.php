@@ -1,6 +1,10 @@
 <link rel="stylesheet"  href="<?php echo base_url();  ?>public/temas/default/css/login.css" media="screen" >
+<<<<<<< HEAD
 
        <section>
+=======
+       <section class="row">
+>>>>>>> 33c5355b90d4646f931ab4252efdce4940db8ed1
             <div id="imagem"><img src="<?php echo base_url();  ?>public/temas/default/images/cimol_branco.png"/></div>
             <div id="sbv"><h3><p>SEJA BEM-VINDO</p></h3></div>
             <div id="msg"><p>INFORME SEUS DADOS DE ACESSO</p></div>

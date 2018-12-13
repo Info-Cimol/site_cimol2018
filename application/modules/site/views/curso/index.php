@@ -1,12 +1,12 @@
 <link rel="stylesheet" href="<?php echo base_url();  ?>public/site/css/curso.css" />
-<section id="cursos">
+<section id="cursos" class="row">
 	
 		
 		
 			<h4 class="titulo_pagina">Cursos</h4>
 			
 			<?php 
-				
+				 
 				foreach($cursos AS $curso){
 			
 			?>
@@ -33,14 +33,6 @@
 						</div>
 					
 				</div>
-				
-			
-			
-			<?php 
-				}
-			?>	
-			
-				
-			
+	
 		
 	</section>
